@@ -17,7 +17,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusinessLogic", "BusinessLo
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DAL", "DAL", "{DF4F1D27-257E-4E1C-A396-8D645AF41820}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{92BDFD7C-C48F-4F21-8B05-01F3A1E1C1CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccess", "DataAccess\DataAccess.csproj", "{92BDFD7C-C48F-4F21-8B05-01F3A1E1C1CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessInterfaces", "BusinessInterfaces\BusinessInterfaces.csproj", "{98C80736-3C47-4D51-954A-F3735BEA3DAC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +43,10 @@ Global
 		{92BDFD7C-C48F-4F21-8B05-01F3A1E1C1CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{92BDFD7C-C48F-4F21-8B05-01F3A1E1C1CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{92BDFD7C-C48F-4F21-8B05-01F3A1E1C1CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98C80736-3C47-4D51-954A-F3735BEA3DAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98C80736-3C47-4D51-954A-F3735BEA3DAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98C80736-3C47-4D51-954A-F3735BEA3DAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98C80736-3C47-4D51-954A-F3735BEA3DAC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -50,6 +56,7 @@ Global
 		{6F540BA8-928E-42A3-9C8D-AC6B86D88025} = {74531949-CD2A-4B94-B46F-C2F77B84757A}
 		{9DB770FC-FA01-4DC9-B887-6DA424B1821B} = {C35520D8-A1FC-442F-A402-73F4DCD1E8AE}
 		{92BDFD7C-C48F-4F21-8B05-01F3A1E1C1CF} = {DF4F1D27-257E-4E1C-A396-8D645AF41820}
+		{98C80736-3C47-4D51-954A-F3735BEA3DAC} = {C35520D8-A1FC-442F-A402-73F4DCD1E8AE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8D0CB1D5-CE88-483C-9586-3C550008C8D8}
